@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruang Usaha — Satu Ruang untuk Usaha yang Bertumbuh</title>
+  <meta name="description" content="Ruang Usaha adalah platform marketplace yang menghubungkan UMKM dengan marketer, content creator, dan solusi promosi digital dalam satu ekosistem kolaborasi berbasis teknologi." />
+  <meta name="keywords" content="digital marketer, content creator, jasa promosi umkm, social media management, jasa tiktok umkm" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ruang Usaha — Satu Ruang untuk Usaha yang Bertumbuh" />
+  <meta property="og:description" content="Platform marketplace yang menghubungkan UMKM dengan marketer profesional." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ruangusaha.id" />
+
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+  <script type="module" src="./scripts/main.js"></script>
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+<body data-page="home">
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header class="header header--transparent" id="main-header">
+    <div class="header__inner">
+      <a href="/" class="header__logo">
+        <span class="header__logo-text">Ruang Usaha</span>
+      </a>
+
+      <!-- Search in header (desktop) -->
+      <div class="header__search u-hidden-md u-flex-1 u-px-8">
+        <div class="search-bar" style="background:rgba(255,255,255,0.1); border-color:rgba(255,255,255,0.2); backdrop-filter:blur(10px)">
+          <svg class="search-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--color-neutral-0)"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="text" class="search-bar__input" placeholder="Cari marketer, jasa, atau kategori..." style="color:var(--color-neutral-0)" />
+        </div>
+      </div>
+
+      <nav class="nav u-hidden-lg" aria-label="Main navigation">
+        <a href="/" class="nav__link is-active">Beranda</a>
+        <a href="/pages/cari-kreator.html" class="nav__link">Cari Kreator</a>
+        <a href="/pages/features.html" class="nav__link">Solusi Bisnis</a>
+        <a href="/pages/pricing.html" class="nav__link">Harga</a>
+        <a href="/pages/blog.html" class="nav__link">Insight</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="/pages/login.html" class="btn btn--ghost btn--sm" style="color: rgba(255,255,255,0.9)">Masuk</a>
+        <a href="/pages/register.html" class="btn btn--white btn--sm">Daftar Gratis</a>
+      </div>
+
+      <button class="header__hamburger" aria-label="Menu" aria-expanded="false">
+        <span class="header__hamburger-line"></span>
+        <span class="header__hamburger-line"></span>
+        <span class="header__hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu__overlay"></div>
+  <aside class="mobile-menu" aria-label="Mobile navigation">
+    <div class="u-p-4">
+      <div class="search-bar">
+        <svg class="search-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input type="text" class="search-bar__input" placeholder="Cari marketer..." />
+      </div>
+    </div>
+    <nav class="mobile-menu__nav">
+      <a href="/" class="mobile-menu__link is-active">Beranda</a>
+      <a href="/pages/cari-kreator.html" class="mobile-menu__link">Cari Kreator</a>
+      <a href="/pages/features.html" class="mobile-menu__link">Solusi Bisnis</a>
+      <a href="/pages/pricing.html" class="mobile-menu__link">Harga</a>
+      <a href="/pages/blog.html" class="mobile-menu__link">Insight</a>
+      <a href="/pages/about.html" class="mobile-menu__link">Tentang</a>
+      <a href="/pages/contact.html" class="mobile-menu__link">Kontak</a>
+    </nav>
+    <div class="mobile-menu__actions">
+      <a href="/pages/login.html" class="btn btn--outline btn--block">Masuk</a>
+      <a href="/pages/register.html" class="btn btn--primary btn--block">Daftar Gratis</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="hero" id="hero">
+      <div class="hero__background hero__background--gradient"></div>
+      <div class="hero__decor">
+        <div class="hero__decor-circle hero__decor-circle--1"></div>
+        <div class="hero__decor-circle hero__decor-circle--2"></div>
+        <div class="hero__grid-pattern"></div>
+      </div>
+
+      <div class="container hero__content">
+        <div class="hero__layout">
+          <div>
+            <div class="hero__label">
+              <span class="hero__label-dot"></span>
+              Platform Pencarian Talenta Digital UMKM
+            </div>
+            <h1 class="hero__title">
+              Temukan Marketer & Kreator Terbaik untuk <span class="hero__title-accent">Mengembangkan</span> Usaha Anda.
+            </h1>
+            <p class="hero__subtitle">
+              Tidak perlu agency mahal. Ruang Usaha mempertemukan bisnis Anda dengan talenta digital yang siap membantu promosi secara profesional.
+            </p>
+            
+            <div class="search-bar search-bar--lg search-bar--hero u-mb-8" style="max-width: 480px">
+              <svg class="search-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              <input type="text" class="search-bar__input" placeholder="Jasa konten TikTok untuk kuliner" />
+              <button class="btn btn--white btn--sm" style="margin-left:auto; border-radius:var(--radius-lg)">Cari</button>
+            </div>
+
+            <div class="hero__actions">
+              <a href="/pages/cari-kreator.html" class="btn btn--white btn--lg">
+                Mulai Cari Kreator
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="/pages/register.html?type=creator" class="btn btn--white-ghost btn--lg">Saya Seorang Kreator</a>
+            </div>
+            
+            <div class="hero__stats u-mt-10">
+              <div class="hero__stat">
+                <div class="hero__stat-number"><span data-counter="3500">0</span>+</div>
+                <div class="hero__stat-label">Kreator Aktif</div>
+              </div>
+              <div class="hero__stat">
+                <div class="hero__stat-number"><span data-counter="1200">0</span></div>
+                <div class="hero__stat-label">UMKM Berkembang</div>
+              </div>
+              <div class="hero__stat">
+                <div class="hero__stat-number"><span data-counter="8900">0</span></div>
+                <div class="hero__stat-label">Proyek Selesai</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=560&h=420&fit=crop" alt="Tim Digital Marketing" class="hero__image" />
+            <div class="hero__float-card hero__float-card--1" style="display:flex; gap:12px; align-items:center; padding:16px;">
+              <img src="https://i.pravatar.cc/48?img=11" alt="" style="border-radius:50%; width:40px; height:40px;" />
+              <div>
+                <div style="font-size:var(--font-size-sm);font-weight:700;color:var(--color-neutral-900)">Raka P. <span style="color:var(--color-primary-500)">✔</span></div>
+                <div style="font-size:var(--font-size-xs);color:var(--color-neutral-500)">Digital Marketer</div>
+              </div>
+            </div>
+            <div class="hero__float-card hero__float-card--2">
+              <div style="font-size:var(--font-size-xs);color:var(--color-neutral-500)">ROI Campaign Terakhir</div>
+              <div style="font-size:var(--font-size-2xl);font-weight:800;color:var(--color-success)">+320%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll-indicator"><div class="hero__scroll-mouse"></div><span>Scroll</span></div>
+    </section>
+
+    <!-- ═══════════ MARKETPLACE MARKETER (Top Creators) ═══════════ -->
+    <section class="section section--light" id="top-creators">
+      <div class="container">
+        <div class="section__header--split">
+          <div>
+            <span class="section-label">Talenta Terbaik</span>
+            <h2 class="section-title">Temukan Talenta Sesuai Kebutuhan Bisnis Anda</h2>
+          </div>
+          <a href="/pages/cari-kreator.html" class="btn btn--outline">Lihat Semua Kreator →</a>
+        </div>
+
+        <div class="category-filter u-mb-8">
+          <button class="category-pill is-active">Semua Kategori</button>
+          <button class="category-pill">Social Media</button>
+          <button class="category-pill">Content Creator</button>
+          <button class="category-pill">Performance Ads</button>
+          <button class="category-pill">Branding</button>
+        </div>
+
+        <div class="grid grid--3">
+          <!-- Card 1 -->
+          <article class="creator-card reveal delay-1">
+            <div class="creator-card__header">
+              <img src="https://i.pravatar.cc/128?img=11" alt="Raka Pratama" class="creator-card__avatar" loading="lazy" />
+              <div class="creator-card__info">
+                <h3 class="creator-card__name">
+                  Raka Pratama 
+                  <span class="creator-card__badge" aria-label="Verified">✔</span>
+                  <span class="creator-card__badge" aria-label="Top Performer">🔥</span>
+                </h3>
+                <p class="creator-card__role">Digital Marketing Specialist</p>
+              </div>
+            </div>
+            <div class="creator-card__body">
+              <div class="creator-card__stats">
+                <span class="creator-card__stat creator-card__stat--rating">⭐ 4.9</span>
+                <span class="creator-card__stat">120 Proyek</span>
+                <span class="creator-card__stat">5 Thn Exp</span>
+              </div>
+              <p class="creator-card__bio">"Membantu UMKM meningkatkan engagement hingga 300% melalui strategi konten berbasis data."</p>
+              <div class="creator-card__tags">
+                <span class="tag">Social Media Marketing</span>
+                <span class="tag">Video Content</span>
+              </div>
+            </div>
+            <div class="creator-card__footer">
+              <div>
+                <div class="creator-card__price-label">Mulai dari</div>
+                <div class="creator-card__price-value">Rp 150rb</div>
+              </div>
+              <div class="creator-card__actions">
+                <button class="btn btn--outline btn--icon" aria-label="Chat">💬</button>
+                <a href="/pages/creator-profile.html" class="btn btn--primary">Lihat Profil</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="creator-card reveal delay-2">
+            <div class="creator-card__header">
+              <img src="https://i.pravatar.cc/128?img=5" alt="Sari Dewi" class="creator-card__avatar" loading="lazy" />
+              <div class="creator-card__info">
+                <h3 class="creator-card__name">
+                  Sari Dewi 
+                  <span class="creator-card__badge">✔</span>
+                </h3>
+                <p class="creator-card__role">Social Media Manager</p>
+              </div>
+            </div>
+            <div class="creator-card__body">
+              <div class="creator-card__stats">
+                <span class="creator-card__stat creator-card__stat--rating">⭐ 4.8</span>
+                <span class="creator-card__stat">85 Proyek</span>
+                <span class="creator-card__stat">3 Thn Exp</span>
+              </div>
+              <p class="creator-card__bio">Spesialis industri FnB. Mengelola konten viral organik untuk mendongkrak penjualan offline maupun online.</p>
+              <div class="creator-card__tags">
+                <span class="tag">TikTok Strategy</span>
+                <span class="tag">IG Reels</span>
+              </div>
+            </div>
+            <div class="creator-card__footer">
+              <div>
+                <div class="creator-card__price-label">Mulai dari</div>
+                <div class="creator-card__price-value">Rp 200rb</div>
+              </div>
+              <div class="creator-card__actions">
+                <button class="btn btn--outline btn--icon" aria-label="Chat">💬</button>
+                <a href="/pages/creator-profile.html" class="btn btn--primary">Lihat Profil</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="creator-card reveal delay-3">
+            <div class="creator-card__header">
+              <img src="https://i.pravatar.cc/128?img=12" alt="Budi Santoso" class="creator-card__avatar" loading="lazy" />
+              <div class="creator-card__info">
+                <h3 class="creator-card__name">
+                  Budi Santoso 
+                  <span class="creator-card__badge">🔥</span>
+                </h3>
+                <p class="creator-card__role">Performance Marketer</p>
+              </div>
+            </div>
+            <div class="creator-card__body">
+              <div class="creator-card__stats">
+                <span class="creator-card__stat creator-card__stat--rating">⭐ 5.0</span>
+                <span class="creator-card__stat">300 Proyek</span>
+                <span class="creator-card__stat">7 Thn Exp</span>
+              </div>
+              <p class="creator-card__bio">Mantan Agency Lead. Fokus pada ROI tinggi (ROAS 5x) untuk campaign e-commerce dan retail modern.</p>
+              <div class="creator-card__tags">
+                <span class="tag">Meta Ads</span>
+                <span class="tag">Google Ads</span>
+              </div>
+            </div>
+            <div class="creator-card__footer">
+              <div>
+                <div class="creator-card__price-label">Mulai dari</div>
+                <div class="creator-card__price-value">Rp 500rb</div>
+              </div>
+              <div class="creator-card__actions">
+                <button class="btn btn--outline btn--icon" aria-label="Chat">💬</button>
+                <a href="/pages/creator-profile.html" class="btn btn--primary">Lihat Profil</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ AI SMART MATCHING ═══════════ -->
+    <section class="section" id="ai-matching">
+      <div class="container">
+        <div class="grid grid--2" style="align-items:center; gap:var(--space-16);">
+          <div class="reveal">
+            <span class="section-label">AI Smart Matching</span>
+            <h2 class="section-title">Tidak Tahu Harus Memilih Siapa?<br/>Biarkan AI Membantu.</h2>
+            <p class="text-lead u-mb-6">Cukup masukkan kebutuhan bisnis Anda, sistem kami akan merekomendasikan kreator paling sesuai berdasarkan niche industri, performa historis, dan budget Anda.</p>
+            <form class="u-mb-6" style="background:var(--color-neutral-0); border:1px solid var(--color-neutral-200); border-radius:var(--radius-xl); padding:var(--space-4); display:flex; flex-direction:column; gap:var(--space-3)">
+              <textarea placeholder="Contoh: Saya punya bisnis kedai kopi kecil dan butuh orang untuk manage TikTok agar lebih viral. Budget sekitar Rp 1 Juta per bulan..." class="form-textarea" style="border:none; padding:0; min-height:80px; resize:none"></textarea>
+              <button type="button" class="btn btn--primary btn--block">Coba Smart Matching ✨</button>
+            </form>
+          </div>
+          <div class="reveal--right" style="position:relative">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=500&fit=crop" alt="Data Analytics" style="border-radius:var(--radius-2xl); box-shadow:var(--shadow-xl)" />
+            <!-- Decorative overlay cards -->
+            <div style="position:absolute; bottom:var(--space-8); left:calc(-1 * var(--space-8)); background:var(--color-neutral-0); padding:var(--space-4); border-radius:var(--radius-xl); box-shadow:var(--shadow-lg); display:flex; align-items:center; gap:var(--space-3)">
+              <div style="width:40px;height:40px;background:var(--color-success);color:white;display:flex;align-items:center;justify-content:center;border-radius:50%">98%</div>
+              <div>
+                <div style="font-weight:700;font-size:var(--font-size-sm)">Match Accuracy</div>
+                <div style="font-size:var(--font-size-xs);color:var(--color-neutral-500)">Berbasis data proyek</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PORTFOLIO SHOWCASE ═══════════ -->
+    <section class="section section--light" id="portfolio">
+      <div class="container">
+        <div class="section__header">
+          <span class="section-label">Social Proof</span>
+          <h2 class="section-title">Hasil Nyata dari Kolaborasi Nyata</h2>
+          <p class="section-subtitle">Lihat bagaimana talenta kami mentransformasi bisnis UMKM menjadi brand yang dikenal luas.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <!-- Case Study 1 -->
+          <article class="case-study reveal delay-1">
+            <div class="case-study__image">
+              <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=800&h=450&fit=crop" alt="Kopi Lokal Kampanye" loading="lazy" />
+              <span class="case-study__badge badge badge--primary">F&B Industry</span>
+            </div>
+            <div class="case-study__content">
+              <h3 class="case-study__title">Rebranding & TikTok Growth untuk "Kopi Sudut"</h3>
+              <p class="case-study__client">Oleh: Raka Pratama (Content Creator)</p>
+              
+              <div class="case-study__comparison">
+                <div class="case-study__before">
+                  <div class="case-study__before-after-label">Before</div>
+                  <div class="case-study__value">Visual acak-acakan,<br/>mentok di 500 followers.</div>
+                </div>
+                <div class="case-study__after">
+                  <div class="case-study__before-after-label">After (3 Bulan)</div>
+                  <div class="case-study__value">Identitas visual kuat,<br/>viral ke 12,000+ followers.</div>
+                </div>
+              </div>
+
+              <div class="case-study__metrics">
+                <div class="case-study__metric">
+                  <div class="case-study__metric-val">+340%</div>
+                  <div class="case-study__metric-lbl">Engagement</div>
+                </div>
+                <div class="case-study__metric">
+                  <div class="case-study__metric-val">+210%</div>
+                  <div class="case-study__metric-lbl">Sales Online</div>
+                </div>
+              </div>
+
+              <a href="#" class="btn btn--outline btn--block">Lihat Studi Kasus</a>
+            </div>
+          </article>
+
+          <!-- Case Study 2 -->
+          <article class="case-study reveal delay-2">
+            <div class="case-study__image">
+              <img src="https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800&h=450&fit=crop" alt="Fashion Apparel" loading="lazy" />
+              <span class="case-study__badge badge badge--accent">Fashion & Retail</span>
+            </div>
+            <div class="case-study__content">
+              <h3 class="case-study__title">Meta Ads Optimization untuk "Nusantara Wear"</h3>
+              <p class="case-study__client">Oleh: Budi Santoso (Performance Marketer)</p>
+              
+              <div class="case-study__comparison">
+                <div class="case-study__before">
+                  <div class="case-study__before-after-label">Before</div>
+                  <div class="case-study__value">Budget iklan boncos<br/>ROAS di bawah 1.5x.</div>
+                </div>
+                <div class="case-study__after">
+                  <div class="case-study__before-after-label">After (1 Bulan)</div>
+                  <div class="case-study__value">Targeting super spesifik<br/>ROAS menyentuh 5.2x.</div>
+                </div>
+              </div>
+
+              <div class="case-study__metrics">
+                <div class="case-study__metric">
+                  <div class="case-study__metric-val">5.2x</div>
+                  <div class="case-study__metric-lbl">ROAS (Return)</div>
+                </div>
+                <div class="case-study__metric">
+                  <div class="case-study__metric-val">-45%</div>
+                  <div class="case-study__metric-lbl">Biaya Akuisisi (CAC)</div>
+                </div>
+              </div>
+
+              <a href="#" class="btn btn--outline btn--block">Lihat Studi Kasus</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ HOW IT WORKS ═══════════ -->
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section__header">
+          <span class="section-label">Cara Kerja</span>
+          <h2 class="section-title">Kolaborasi semudah 1-2-3-4</h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal delay-1">
+            <div class="step__number">1</div>
+            <h3 class="step__title">Jelaskan Kebutuhan</h3>
+            <p class="step__description">Mulai dengan deskripsi proyek Anda, target audiens, dan budget.</p>
+          </div>
+          <div class="step reveal delay-2">
+            <div class="step__number">2</div>
+            <h3 class="step__title">Pilih Kreator</h3>
+            <p class="step__description">Gunakan Smart Matching atau filter manual untuk meninjau profil dan portfolio.</p>
+          </div>
+          <div class="step reveal delay-3">
+            <div class="step__number">3</div>
+            <h3 class="step__title">Diskusi & Deal</h3>
+            <p class="step__description">Chat langsung, sepakati brief, dan gunakan sistem Escrow kami yang 100% aman.</p>
+          </div>
+          <div class="step reveal delay-4" style="margin-top:var(--space-8)">
+            <div class="step__number" style="background:var(--color-success)">4</div>
+            <h3 class="step__title">Terima Hasil Nyata</h3>
+            <p class="step__description">Dapatkan konten siap pakai atau campaign berjalan, setujui hasil, dan dana baru dicairkan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ SOLUSI BISNIS (SERVICE ECOSYSTEM) ═══════════ -->
+    <section class="section section--light section--decorated" id="services">
+      <div class="container">
+        <div class="section__header">
+          <span class="section-label">Solusi Ekosistem</span>
+          <h2 class="section-title">Layanan Lengkap untuk Mengembangkan Bisnis</h2>
+        </div>
+        <div class="grid grid--3">
+          <div class="card card--feature reveal">
+            <div class="card__icon">📱</div>
+            <div class="card__body">
+              <h3 class="card__title">Social Media Management</h3>
+              <p class="card__description">Tingkatkan brand awareness melalui kelola akun kreatif secara harian.</p>
+              <a href="/pages/features.html" class="btn btn--outline btn--sm u-mt-4">Jelajahi</a>
+            </div>
+          </div>
+          <div class="card card--feature reveal delay-1">
+            <div class="card__icon">🎥</div>
+            <div class="card__body">
+              <h3 class="card__title">Content Creation</h3>
+              <p class="card__description">Produksi video pendek, fotografi produk, dan copywriting yang memukau.</p>
+              <a href="/pages/features.html" class="btn btn--outline btn--sm u-mt-4">Jelajahi</a>
+            </div>
+          </div>
+          <div class="card card--feature reveal delay-2">
+            <div class="card__icon">📈</div>
+            <div class="card__body">
+              <h3 class="card__title">Digital Advertising</h3>
+              <p class="card__description">Meta Ads, Google Ads, dan TikTok Ads untuk mendorong penjualan instan.</p>
+              <a href="/pages/features.html" class="btn btn--outline btn--sm u-mt-4">Jelajahi</a>
+            </div>
+          </div>
+          <div class="card card--feature reveal delay-3">
+            <div class="card__icon">🎨</div>
+            <div class="card__body">
+              <h3 class="card__title">Branding Design</h3>
+              <p class="card__description">Logo, kemasan produk, dan identitas visual yang menonjolkan bisnis Anda.</p>
+              <a href="/pages/features.html" class="btn btn--outline btn--sm u-mt-4">Jelajahi</a>
+            </div>
+          </div>
+          <div class="card card--feature reveal delay-4">
+            <div class="card__icon">🧠</div>
+            <div class="card__body">
+              <h3 class="card__title">Strategi Marketing</h3>
+              <p class="card__description">Konsultasi ahli untuk merencanakan roadmap pemasaran berorientasi konversi.</p>
+              <a href="/pages/features.html" class="btn btn--outline btn--sm u-mt-4">Jelajahi</a>
+            </div>
+          </div>
+          <div class="card card--feature reveal delay-5">
+            <div class="card__icon">🛒</div>
+            <div class="card__body">
+              <h3 class="card__title">Optimasi Marketplace</h3>
+              <p class="card__description">Kelola Shopee, Tokopedia, dan optimasi etalase untuk konversi maksimal.</p>
+              <a href="/pages/features.html" class="btn btn--outline btn--sm u-mt-4">Jelajahi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ TRUST & SECURITY ═══════════ -->
+    <section class="section" id="trust">
+      <div class="container text-center" style="max-width:800px; margin-inline:auto; text-align:center;">
+        <h2 class="h3 u-mb-6">Keamanan Anda adalah Prioritas Kami</h2>
+        <p class="text-lead u-mb-10 text-muted">Setiap transaksi diamankan melalui sistem pembayaran bertahap (Escrow). Dana Anda aman hingga pekerjaan selesai.</p>
+        <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:var(--space-8);">
+          <div style="display:flex; align-items:center; gap:var(--space-2); font-weight:var(--font-weight-medium)"><span style="color:var(--color-success);font-size:1.5rem">✔</span> Escrow Payment System</div>
+          <div style="display:flex; align-items:center; gap:var(--space-2); font-weight:var(--font-weight-medium)"><span style="color:var(--color-success);font-size:1.5rem">✔</span> Verifikasi Kreator KYC</div>
+          <div style="display:flex; align-items:center; gap:var(--space-2); font-weight:var(--font-weight-medium)"><span style="color:var(--color-success);font-size:1.5rem">✔</span> Support 24/7</div>
+          <div style="display:flex; align-items:center; gap:var(--space-2); font-weight:var(--font-weight-medium)"><span style="color:var(--color-success);font-size:1.5rem">✔</span> Transparansi Review</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ TESTIMONIALS ═══════════ -->
+    <section class="section section--light" id="testimonials">
+      <div class="container">
+        <div class="section__header">
+          <span class="section-label">Komunitas Kami</span>
+          <h2 class="section-title">Apa Kata UMKM Indonesia?</h2>
+        </div>
+
+        <div class="testimonials" data-component="carousel" data-autoplay="5000">
+          <div class="testimonials__track">
+            <div class="testimonial">
+              <div class="testimonial__stars">★★★★★</div>
+              <blockquote class="testimonial__quote">"Sebelumnya saya bingung promosi. Setelah pakai Ruang Usaha, penjualan naik drastis karena konten TikTok kami selalu FYP."</blockquote>
+              <div class="testimonial__author">
+                <img src="https://i.pravatar.cc/96?img=11" alt="Bapak Anton" class="testimonial__avatar" loading="lazy" />
+                <div class="testimonial__info">
+                  <div class="testimonial__name">Bapak Anton</div>
+                  <div class="testimonial__role">Owner Kedai Kopi Lokal</div>
+                </div>
+              </div>
+            </div>
+            <!-- More testimonials injected dynamically or hardcoded for preview -->
+          </div>
+          <div class="testimonials__controls">
+            <button class="testimonials__btn testimonials__btn--prev" aria-label="Sebelumnya">←</button>
+            <div class="testimonials__dots"><button class="testimonials__dot is-active"></button></div>
+            <button class="testimonials__btn testimonials__btn--next" aria-label="Berikutnya">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CTA BANNER ═══════════ -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner reveal--scale">
+          <h2 class="cta-banner__title">Bisnis Anda Layak Bertumbuh Secara Eksponensial.</h2>
+          <p class="cta-banner__subtitle">Bergabunglah dengan ribuan pelaku usaha yang sudah menemukan tim pemasaran digital virtual mereka.</p>
+          <div class="cta-banner__actions">
+            <a href="/pages/register.html" class="btn btn--white btn--lg">Mulai Sekarang — Gratis</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="/" class="footer__logo">
+            <span class="footer__logo-text">Ruang Usaha</span>
+          </a>
+          <p class="footer__tagline">Satu Ruang untuk Usaha yang Bertumbuh.</p>
+          <div style="font-size:var(--font-size-sm);color:var(--color-neutral-400);line-height:1.6;margin-bottom:var(--space-6)">
+            Email: <a href="mailto:ruangusaha62@gmail.com" style="color:var(--color-neutral-300)">ruangusaha62@gmail.com</a><br/>
+            Instagram: <a href="#" style="color:var(--color-neutral-300)">@ruangusaha_official</a><br/>
+            WhatsApp: <a href="https://wa.me/6283150964050" target="_blank" style="color:var(--color-neutral-300)">083150964050</a>
+          </div>
+          <div class="footer__newsletter" style="margin-top:var(--space-6)">
+            <div class="footer__newsletter-title">Insight bisnis mingguan</div>
+            <form class="footer__newsletter-form" action="#">
+              <input type="email" class="footer__newsletter-input" placeholder="Masukkan email" required />
+              <button type="submit" class="btn btn--primary btn--sm">Langganan</button>
+            </form>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__column-title">Perusahaan</h4>
+          <ul class="footer__links">
+            <li><a href="/pages/about.html" class="footer__link">Tentang Kami</a></li>
+            <li><a href="#" class="footer__link">Karier</a></li>
+            <li><a href="/pages/blog.html" class="footer__link">Insight</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__column-title">Dukungan</h4>
+          <ul class="footer__links">
+            <li><a href="/pages/faq.html" class="footer__link">Bantuan (FAQ)</a></li>
+            <li><a href="/pages/contact.html" class="footer__link">Kontak Tim</a></li>
+            <li><a href="#" class="footer__link">Kebijakan Privasi</a></li>
+            <li><a href="#" class="footer__link">Syarat Layanan</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__column-title">Ekosistem</h4>
+          <ul class="footer__links">
+            <li><a href="/pages/cari-kreator.html" class="footer__link">Cari Kreator</a></li>
+            <li><a href="/pages/features.html" class="footer__link">Solusi Bisnis</a></li>
+            <li><a href="#" class="footer__link">Studi Kasus Jasa</a></li>
+            <li><a href="/pages/pricing.html" class="footer__link">Harga & Paket</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 Ruang Usaha. Hak cipta dilindungi.</p>
+        <div class="footer__legal">
+          <a href="#" class="footer__legal-link">Kebijakan Privasi</a>
+          <a href="#" class="footer__legal-link">Syarat Layanan</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top btn btn--primary btn--icon" aria-label="Kembali ke atas" style="position:fixed;bottom:var(--space-6);right:var(--space-6);z-index:var(--z-fixed);opacity:0;pointer-events:none;transition:opacity var(--duration-normal) var(--ease-default);">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+  <style>.back-to-top.is-visible{opacity:1;pointer-events:auto;}</style>
+</body>
+</html>
